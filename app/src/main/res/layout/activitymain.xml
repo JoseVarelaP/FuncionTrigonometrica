@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_margin="20dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/TituloOp1"
+        android:textSize="30dp"
+        android:layout_weight="0"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/buttonsin"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="SeleccionarFuncion"
+            android:text="@string/ButtonSIN" />
+
+        <RadioButton
+            android:id="@+id/buttoncos"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="SeleccionarFuncion"
+            android:text="@string/ButtonCOS" />
+
+        <RadioButton
+            android:id="@+id/buttontan"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="SeleccionarFuncion"
+            android:text="@string/ButtonTAN" />
+
+        </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/TituloOp2"
+        android:textSize="30dp"
+        android:layout_weight="0"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/Grad45"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:onClick="SeleccionarGrado"
+            android:text="45" />
+
+        <RadioButton
+            android:id="@+id/Grad90"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:onClick="SeleccionarGrado"
+            android:text="90" />
+
+        <RadioButton
+            android:id="@+id/Grad180"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:onClick="SeleccionarGrado"
+            android:text="180" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/MuestraImagen"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:src="@drawable/grado_45"
+        >
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/TituloOp3"
+        android:textSize="30dp"
+        android:layout_weight="0"
+        />
+    <TextView
+        android:id="@+id/calculores"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text=""
+        android:textSize="30dp"
+        android:layout_weight="0"
+        />
+
+</LinearLayout>

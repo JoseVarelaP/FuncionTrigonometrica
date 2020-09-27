@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Funcion Trigonometrica</string>
+    <string name="TituloOp1">Funciones</string>
+    <string name="TituloOp2">Grados</string>
+    <string name="TituloOp3">Resultado</string>
+
+    <string name="ButtonSIN">SIN</string>
+    <string name="ButtonCOS">COS</string>
+    <string name="ButtonTAN">TAN</string>
+</resources>
